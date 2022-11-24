@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "calendar-widget-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["yuu <yusei8171@gmail.com>"]
+readme = "README.md"
+packages = [{include = "calendar_widget_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.87.0"
+uvicorn = "^0.20.0"
+google-api-python-client = "^2.66.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
